@@ -13,6 +13,11 @@ return [
     |
     */
     'find' => 'Kur mus rasti?',
-    'contacts' => 'Kontaktai',
-    'button' => 'Palikti užklausą'
+    'contacts' => 'Liko klausimų?',
+    'callus' => 'Skambinkite',
+    'button' => 'Palikti užklausą',
+    'fillin' => 'Užpildykite formą',
+    'name' => 'Vardas',
+    'entername' => 'Įveskite vardą',
+    'or' => 'arba...'
 ];

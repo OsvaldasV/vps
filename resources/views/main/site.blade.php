@@ -42,5 +42,49 @@
 
     <script src="{{ asset('/js/app.js') }}"></script>
     <script src="{{ asset('/js/custom.js') }}"></script>
+    <script type="text/javascript">
+        function initMap() {
+                var myLatlng = {lat: 55.683098, lng: 21.188754};
+                var map = new google.maps.Map(document.getElementById('map'), {
+                  zoom: 16,
+                  center: myLatlng,
+                  scrollwheel: false,
+                  zoomControl: true,
+                  scaleControl: false,
+                  disableDoubleClickZoom: false,
+                });
+                var contentString = '<div id="content">'+
+                     '<div id="siteNotice">'+
+                     '</div>'+
+                     '<h5 id="firstHeading" class="firstHeading">UAB "VPS"</h5>'+
+                     '<div id="bodyContent">'+
+                     '<p>Adresas: Šilutės pl. 79, Klaipėda</p>'+
+                     '<p>Tel: +370 46 383427</p>'+
+                     '<p>El.p: info@vpsjet.com</p>'+
+                     '</div>'+
+                     '</div>';
+
+                 var infowindow = new google.maps.InfoWindow({
+                   content: contentString
+                 });
+                var marker = new google.maps.Marker({
+                  position: myLatlng,
+                  map: map,
+                });
+                map.addListener('mouseover', function() {
+                    infowindow.open(map, marker);
+
+                });
+                map.addListener('mouseout', function(){
+                    infowindow.close();
+                });
+                google.maps.event.addListenerOnce(map, 'idle', function() {
+                    google.maps.event.trigger(map, 'resize');
+                });
+             }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFltUChUDunwQvIdsH7q8DjoSOfVcRheA&callback=initMap">
+    </script>
 </body>
 </html>

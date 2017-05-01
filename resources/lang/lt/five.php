@@ -26,5 +26,5 @@ return [
     'c-left4' => 'Jums pageidaujant pristatysim produkcijos pavyzdžių',
     'c-middle5' => 'Pasirašome sutartį ir sutvarkome visus formalumus',
     'c-right6' => 'Jūs mėgaujatės geru rezultatu',
-    'button' => 'Palikti užklausą'
+    'button' => 'Palikite užklausą'
 ];
