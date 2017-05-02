@@ -1,4 +1,4 @@
-<div class="container-fluid starting two">
+<div class="container-fluid starting two" id="services">
 	
 	<h1 class="twoCatch">@lang('two.catchword')</h1>
 	

@@ -16,8 +16,21 @@ return [
     'contacts' => 'Liko klausimų?',
     'callus' => 'Skambinkite',
     'button' => 'Palikti užklausą',
-    'fillin' => 'Užpildykite formą',
+    'fillin' => 'Palikti užklausą',
     'name' => 'Vardas',
     'entername' => 'Įveskite vardą',
-    'or' => 'arba...'
+    'yourname' => 'Jūsų vardas',
+    'question' => 'Klausimas',
+    'enternumber' => 'Įveskite numerį',
+    'yournumber' => 'Jūsų telefono numeris',
+    'enteremail' => 'Įveskite el. pašto adresą',
+    'youremail' => 'Jūsų el. pašto adresas',
+    'enterquestion' => 'Įveskite klausimą',
+    'yourquestion' => 'Jūsų klausimas',
+    'or' => 'arba...',
+    'button' => 'Palikite užklausą',
+    'tel' => 'Telefono numeris',
+    'nepri' => '(neprivaloma)',
+    'email' => 'El. pašto adresas',
+    'guarantee' => 'Garantuojame Jūsų duomenų saugumą'
 ];

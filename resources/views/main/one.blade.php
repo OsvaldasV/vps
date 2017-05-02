@@ -1,4 +1,4 @@
-<div class="container-fluid starting one">
+<div class="container-fluid starting one" id="about">
 	
 	<h1 class="oneCatch">@lang('one.catchword')</h1>
 	

@@ -1,4 +1,7 @@
  <!-- Static navbar -->
+    <a href="#" id="backToTop" style="right: 51.5px; display: none;">
+      <span></span>
+    </a>
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container magic">
         <div class="navbar-header">
@@ -9,10 +12,12 @@
             <span class="icon-bar"></span>
           </button>
           <img class="logo" src="{{asset('img/logo.jpg')}}">
-     
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
+            {{-- ar reikia tel? --}}
+            <li><span class="glyphicon glyphicon-earphone"></span>
+              <span>+370 46 383427</span></li>
             <li><a href="#about">@lang('header.aboutus')</a></li>
             <li><a href="#services">@lang('header.services')</a></li>
             <li><a href="#whyus">@lang('header.whyus')</a></li>

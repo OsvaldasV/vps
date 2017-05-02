@@ -1,4 +1,4 @@
-<div class="container-fluid five">
+<div class="container-fluid five" id="how-we-work">
 	<div class="container">
 	<h1 class="threeCatch">@lang('five.catchword')</h1>
 	
@@ -37,7 +37,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 text-center">
-				<button button type="button" class="btn-lg btn-mine-five">
+				<button button type="button" class="btn-lg btn-mine-five" data-toggle="modal" data-target="#myModal">
 								@lang('five.button')
 				</button>
 			</div>
